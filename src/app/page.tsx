@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 import Image from "next/image";
-import LiveRegistrationCount from "@/components/LiveRegistrationCount";
+
 
 const highlights = [
   { icon: "♫", title: "Music", color: "text-cyan-300" },
@@ -163,19 +163,7 @@ export default function Home() {
       </section>
 
       {/* Live registration */}
-      <section className="relative z-10 mx-auto max-w-5xl px-6 pb-16">
-        <div className="rounded-2xl border border-cyan-400/30 bg-gradient-to-r from-blue-950/80 via-purple-950/70 to-fuchsia-950/70 p-5 text-center shadow-[0_0_30px_rgba(34,211,238,0.1)] backdrop-blur-xl">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">
-            Join the celebration
-          </p>
-          <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <span className="text-lg font-bold">Students registered:</span>
-            <div className="rounded-xl border border-cyan-300/30 bg-black/30 px-4 py-2 text-2xl font-black text-cyan-300">
-              <LiveRegistrationCount />
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* About */}
       <section id="about" className="relative z-10 mx-auto max-w-7xl px-6 py-16">
