@@ -375,7 +375,7 @@ export default function RegistrationForm() {
           <div className="flex flex-col items-center gap-3 py-2">
             <div className="relative w-full max-w-[240px] aspect-square rounded-2xl bg-white p-3 shadow-2xl shadow-black/40 ring-1 ring-slate-200 overflow-hidden">
               <Image
-                src="/upi-qr.png"
+                src="/rizzverse-qr.png"
                 alt="UPI QR code — scan to pay ₹1,200 registration fee"
                 fill
                 sizes="(max-width: 768px) 100vw, 240px"

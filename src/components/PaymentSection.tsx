@@ -41,7 +41,7 @@ export default function PaymentSection() {
           <div className="rounded-2xl bg-white p-4 md:p-5 shadow-2xl border border-gray-100 mx-auto max-w-xs">
             <div className="aspect-square w-full rounded-xl overflow-hidden bg-white border border-gray-200 relative">
               <Image
-                src="/upi-qr.png"
+                src="/rizzverse-qr.png"
                 alt={`UPI QR code — pay ₹${ENTRY_FEE.toLocaleString(
                   "en-IN"
                 )}`}
